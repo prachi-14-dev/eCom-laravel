@@ -17,5 +17,28 @@
     .custom-login{
         height: 500px;
     }
+    img.slider-img{
+        height: 400px !important;
+    }
+    .custom-product{
+        height: 500px;
+    }
+    .carousel-caption{
+        background-color: black !important;
+    }
+    .trending-img{
+        height: 100px;
+    }
+    .trending-item{
+        float: left;
+        width: 25%;
+    }
+    .detail-img{
+        height: 300px;
+        width: 550px;
+    }
+    .search-box{
+        width: 500px !important;
+    }
 </style>
 </html>

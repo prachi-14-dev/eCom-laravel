@@ -16,32 +16,32 @@ class Product_seeder extends Seeder
     public function run()
     {
         DB::table('products')->insert([[
-            'name'=>'redmi Mobile',
-            'price'=>'Rs. 23000/-',
+            'name'=>'Sony TV',
+            'price'=>'Rs. 41000/-',
             'category'=>'Electronics',
-            'gallery'=>'https://www.shutterstock.com/image-photo/mobile-smart-phone-on-white-260nw-1311685394.jpg',
-            'description'=>'this mobile phone have some awesome features.... ',
+            'gallery'=>'https://sony.scene7.com/is/image/sonyglobalsolutions/TVFY23_X75L_Primary-Image-1?$S7Product$&fmt=png-alpha',
+            'description'=>'this television have some awesome features.... ',
         ],
         [
-            'name'=>'Iphone',
+            'name'=>'Philips smart tv',
             'price'=>'Rs. 100000/-',
             'category'=>'Electronics',
-            'gallery'=>'https://www.shutterstock.com/image-photo/mobile-smart-phone-on-white-260nw-1311685394.jpg',
-            'description'=>'this mobile phone have some awesome features.... ',
+            'gallery'=>'https://images.philips.com/is/image/philipsconsumer/4e85edfdb6434cdea535afb200c123e1?$jpglarge$&wid=1250',
+            'description'=>'this television have some awesome features.... ',
         ],
         [
-            'name'=>'motorola Mobile',
-            'price'=>'Rs. 23000/-',
+            'name'=>'Haier Refrigerator',
+            'price'=>'Rs. 12000/-',
             'category'=>'Electronics',
-            'gallery'=>'https://www.shutterstock.com/image-photo/mobile-smart-phone-on-white-260nw-1311685394.jpg',
-            'description'=>'this mobile phone have some awesome features.... ',
+            'gallery'=>'https://i.gadgets360cdn.com/products/side-by-side-refrigerator-570-l-hrf-622ks-large-97143-167670-1600246845-1.jpeg',
+            'description'=>'this refrigerator have some awesome features.... ',
         ],
         [
-            'name'=>'nokia Mobile',
-            'price'=>'Rs. 53000/-',
+            'name'=>'LG Refrigerator',
+            'price'=>'Rs. 16000/-',
             'category'=>'Electronics',
-            'gallery'=>'https://www.shutterstock.com/image-photo/mobile-smart-phone-on-white-260nw-1311685394.jpg',
-            'description'=>'this mobile phone have some awesome features.... ',
+            'gallery'=>'https://ebvnpurnouvg.cdn.shift8web.com/wp-content/uploads/2023/04/41FRD4z4XL._SX342_SY445_.jpg',
+            'description'=>'this refrigerator have some awesome features.... ',
         ]]);
     }
 }
