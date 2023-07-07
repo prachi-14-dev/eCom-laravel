@@ -32,7 +32,7 @@
         
         <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Cart
+          <a class="nav-link" href="/cart_list">Cart
             <span class="badge badge-pill bg-primary cart-count">{{$total}}</span>
           </a>
         </li>
