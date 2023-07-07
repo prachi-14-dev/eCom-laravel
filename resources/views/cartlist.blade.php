@@ -19,7 +19,7 @@
                                     </div>
                             </div>
                             <div class="col-sm-3">
-                                <button class="btn btn-warning">Remove item from cart</button>
+                                <a href="/remove_cart_item/{{$item->cart_id}}" class="btn btn-warning">Remove item from cart</a>
                             </div>
                         </div>
                     @endforeach
