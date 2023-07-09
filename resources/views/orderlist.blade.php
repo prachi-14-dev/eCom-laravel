@@ -3,10 +3,9 @@
 <div class="container custom-cartlist">
     <div class="col-sm-10">
         <div class="trending-products">
-            <h1>List of products added in cart</h1>
-            <a href="/order_now" class="btn btn-success">Order Now</a>
+            <h1>List of Orders</h1>
                 <div class="">
-                    @foreach($cartList as $item)
+                    @foreach($orderList as $item)
                         <div class="row searched-item cart-list-divider">
                             <div class="col-sm-3">
                                 <a href="/detail/{{$item->id}}">
@@ -15,12 +14,12 @@
                             </div>
                             <div class="col-sm-5">
                                     <div class="">
-                                        <h2>{{$item->name}}</h2>
-                                        <h5>{{$item->description}}</h5>
+                                        <h3>Name : {{$item->name}}</h3>
+                                        <h5>Delivery Status : {{$item->status}}</h5>
+                                        <h5>Payment Method : {{$item->payment_method}}</h5>
+                                        <h5>Payment Status : {{$item->payment_status}}</h5>
+                                        <h5>Address : {{$item->address}}</h5>
                                     </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <a href="/remove_cart_item/{{$item->cart_id}}" class="btn btn-warning">Remove item from cart</a>
                             </div>
                         </div>
                     @endforeach

@@ -18,7 +18,7 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Orders</a>
+          <a class="nav-link" href="/my_orders">Orders</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
@@ -44,7 +44,8 @@
             </ul>
         </li>
         @else
-        <li><a href="/login">Login</a></li>
+        <ul><li><a href="/login">Login</a></li></ul>
+        <ul><li><a href="/signup">Register</a></li></ul>
         @endif
       </ul>
         
